@@ -17,7 +17,7 @@ The script waits for the amount of time specified, and then runs the script, mov
 <br />
 <br />
 
-### Features coming:
+#### Features coming:
 - ability to detect your resolution automatically
 - ability to choose between mouse clicks (left / right / middle)
 - a GUI! :)
