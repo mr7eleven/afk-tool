@@ -1,9 +1,9 @@
 AFK-Tool
 
 a simple Python3 script by Devin Foust
-
-
-
+ 
+ 
+ 
 Easy to understand and tweak!
 A simple script to move your mouse and/or click at specified intervals. 
 
