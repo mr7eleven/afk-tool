@@ -1,7 +1,11 @@
 ## AFK-Tool
 
 ### a simple Python3 script by Devin Foust
+
+uses the pyautogui library
   <br />
+  <br />
+
 
 #### Easy to understand and tweak!
 
