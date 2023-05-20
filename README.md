@@ -4,9 +4,8 @@
 #### by Devin Foust
 
 uses the pyautogui library
-  <br />
-  <br />
-
+<br />
+<br />
 
 #### Easy to understand and tweak!
 
@@ -18,7 +17,11 @@ The script waits for the amount of time specified, and then runs the script, mov
 <br />
 <br />
 
+#### Note:
+The terminal has to be the focus on the screen in order for you to exit with Ctrl+C. fix coming soon.
+
 #### Features coming:
 - ability to detect your resolution automatically
 - ability to choose between mouse clicks (left / right / middle)
 - a GUI! :)
+
