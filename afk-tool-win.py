@@ -1,7 +1,7 @@
 #   A SIMPLE AFK BOT TO MOVE YOUR MOVE AND CLICK RANDOMLY
 #                   by Devin Foust
 #
-#                   LINUX VERSION
+#                  WINDOWS VERSION
 
 
 # Library import
@@ -9,7 +9,7 @@ import pyautogui as pyauto
 import sys, os, random, time
 
 # Title
-os.system("clear")
+os.system("cls")
 print("\nPYTHON AUTO-CLICKER AFK TOOL")
 print("     by Devin Foust")
 print("\nEdit script as needed :)")
@@ -24,7 +24,7 @@ try:
     print("\nHow long in-between mouse movements?")
     waitBetw = float(input("(In seconds) > "))
     print("\nWhat should the duration of the mouse movements be?")
-    duration = float(input("(In seconds) > "))
+    duration = float(input("(In seconds) > "))    
     print("\nHow long to run the script for? > ")
     runTimeMin = input("(In minutes) > ")
     runTimeSec = float(runTimeMin)*60
@@ -34,13 +34,13 @@ try:
     
     # WAIT!
     for i in range(waitInit,0,-1):
-        os.system("clear")
+        os.system("cls")
         print("\nWaiting for",i,"seconds...")
         time.sleep(1)
         
     # ACTION!
     for i in range(0,cycles):
-        os.system("clear")
+        os.system("cls")
         print("\nRUNNING SCRIPT")
         print("Time between movements:",waitBetw,"seconds")
         print("Movement duration:",duration,"seconds")
@@ -57,14 +57,14 @@ try:
             
 # Ctrl+C Behavior
 except KeyboardInterrupt:
-    os.system("clear")
+    os.system("cls")
     print("\nClosing program...")
     time.sleep(1)
     print("\nBye!\n")
     sys.exit()
 
 # FINISHED!
-os.system("clear")
+os.system("cls")
 print("\nSCRIPT FINISHED!")
 print("Ran",cycles,"cycles in",runTimeMin,"minutes.")
 input("\nPress any key to exit...")
