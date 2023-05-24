@@ -35,7 +35,7 @@ try:
     # WAIT!
     for i in range(waitInit,0,-1):
         os.system("clear")
-        print("\nWaiting for",i,"seconds...")
+        print("\nScript will begin after",i,"seconds...")
         time.sleep(1)
         
     # ACTION!
@@ -47,8 +47,8 @@ try:
         print("Movements made:",i)
         print("\nPress ctrl+C to quit...")
         time.sleep(waitBetw)
-        x = random.randint(0, (resx-1))
-        y = random.randint (0, (resy-1))
+        x = random.randint(0, (resx-1))    # The "-1" here is to account for the zero, which is counted as an integer in the resolution range
+        y = random.randint (0, (resy-1))    # The "-1" here is to account for the zero
         pyauto.moveTo(x,y,duration)
         if click == "yes" or click == "y":
             pyauto.click(button="left")
